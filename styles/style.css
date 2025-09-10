@@ -14,3 +14,8 @@
 .font-bangla {
     font-family: "Hind Siliguri", sans-serif;
 }
+
+.active {
+    background-color: #422AD5;
+    color: whitesmoke;
+}
