@@ -19,7 +19,7 @@ const displayLessonWord = (words) => {
         const wordDiv = document.createElement('div');
         wordDiv.innerHTML = `
         <div
-    class="bg-white rounded-2xl shadow-md flex flex-col justify-between items-center text-center w-64 py-8 px-6 space-y-4">
+    class="bg-white rounded-2xl shadow-md flex flex-col justify-between items-center text-center w-64 py-8 px-6 space-y-4 h-full">
     <h2 class="text-2xl font-bold text-gray-800 mb-2">${word.word}</h2>
     <p class="text-sm text-gray-500 mb-3">Meaning / Pronunciation</p>
     <div class="text-lg text-gray-700 font-medium mb-6 font-bangla">
