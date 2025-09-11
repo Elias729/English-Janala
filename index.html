@@ -29,7 +29,7 @@
             <div class="navbar-start">
                 <a class="flex justify-center items-center gap-1">
                     <span class="text-xl  font-semibold">English</span>
-                    <img src="./assets/logo.png" alt="logo">
+                    <img src="./assets/logo.png" alt="English-Janala Logo">
                     <span class="font-bangla text-xl">জানালা</span>
                 </a>
             </div>
@@ -44,29 +44,31 @@
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 -ml-20 w-52  p-2 shadow">
                         <li>
-                            <a href=""><img src="./assets/fa-circle-question.png" alt=""><span>FQA</span></a>
+                            <a href="#frequently"><img src="./assets/fa-circle-question.png"
+                                    alt="FAQ Icon"><span>FAQ</span></a>
                         </li>
                         <li>
-                            <a href=""><img src="./assets/fa-book-open.png" alt=""><span>Learn</span></a>
+                            <a href="#learn"><img src="./assets/fa-book-open.png"
+                                    alt="Learn Icon"><span>Learn</span></a>
                         </li>
                         <li>
-                            <a href=""><img src="./assets/fa-arrow-right-from-bracket.png"
-                                    alt=""><span>Logout</span></a>
+                            <a href="#"><img src="./assets/fa-arrow-right-from-bracket.png"
+                                    alt="Logout Icon"><span>Logout</span></a>
                         </li>
                     </ul>
                 </div>
                 <ul class="menu menu-horizontal px-1 gap-3 hidden lg:flex">
                     <li>
-                        <a href="" class="btn btn-outline btn-primary"><img src="./assets/fa-circle-question.png"
-                                alt=""><span>FQA</span></a>
+                        <a href="#frequently" class="btn btn-outline btn-primary"><img
+                                src="./assets/fa-circle-question.png" alt="FAQ Icon"><span>FAQ</span></a>
                     </li>
                     <li>
-                        <a href="" class="btn btn-outline btn-primary"><img src="./assets/fa-book-open.png"
-                                alt=""><span>Learn</span></a>
+                        <a href="#learn" class="btn btn-outline btn-primary"><img src="./assets/fa-book-open.png"
+                                alt="Learn Icon"><span>Learn</span></a>
                     </li>
                     <li>
-                        <a href="" class="btn btn-outline btn-primary"><img
-                                src="./assets/fa-arrow-right-from-bracket.png" alt=""><span>Logout</span></a>
+                        <a href="#" class="btn btn-outline btn-primary"><img
+                                src="./assets/fa-arrow-right-from-bracket.png" alt="Logout Icon"><span>Logout</span></a>
                     </li>
                 </ul>
             </div>
@@ -82,21 +84,15 @@
                 নতুন হন অথবা
                 আপনার দক্ষতা
                 বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
-            <form action="" class="flex flex-col gap-4 mb-3 w-full max-w-sm">
-                <input type="text" placeholder="Username" class="input input-bordered w-full focus:outline-none" />
-                <input type="password" placeholder="Password" class="input input-bordered w-full focus:outline-none" />
-            </form>
-
-            <button class="btn btn-active btn-primary hover:scale-105 transition">Get Started</button>
         </div>
         <div class="right-img">
-            <img src="./assets/hero-student.png" alt="">
+            <img src="./assets/hero-student.png" alt="Student learning English">
         </div>
     </section>
 
     <!-- * Lesson Section -->
 
-    <section class="mt-40 px-4">
+    <section id="learn" class="mt-20 px-4">
         <h2 class="text-2xl md:text-4xl font-bold text-center mb-6 md:mb-10">
             <span class="text-sky-500">Let's</span> Learn Vocabularies
         </h2>
@@ -137,8 +133,6 @@
 
     <!-- *  MOdal Section -->
 
-    <!-- Open the modal using ID.showModal() method -->
-
     <dialog id="word_modal" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box">
             <div id="details-container" class="p-6 space-y-6 border rounded-xl bg-white shadow-md">
@@ -155,9 +149,92 @@
     </dialog>
 
 
+    <!-- *Frequently Section -->
+
+    <section id="frequently" class="mt-20 md:mt-32">
+        <h2 class="text-2xl md:text-4xl font-bold text-center mb-6 md:mb-10">
+            <span class="text-sky-500">Frequently</span> Asked Questions
+        </h2>
+
+        <!-- * Accordion  -->
+
+        <div class="w-11/12  m-auto my-10">
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title font-semibold">How can I start learning English on this website?</div>
+                <div class="collapse-content text-sm">You can start by exploring our beginner lessons, interactive
+                    exercises, and quizzes. We also offer structured courses to guide you step by step.</div>
+            </div>
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-semibold">Is this website free to use?</div>
+                <div class="collapse-content text-sm">Yes, the website is completely free to use. You can access all
+                    lessons, resources, and practice materials without any cost.</div>
+            </div>
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-semibold">Do I need to create an account?</div>
+                <div class="collapse-content text-sm">Currently, you don’t need an account to use the website. You can
+                    freely browse and learn as a guest. In the future, we may introduce an account system so learners
+                    can save their progress.</div>
+            </div>
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-semibold">How can I build my English vocabulary?</div>
+                <div class="collapse-content text-sm">You can build your English vocabulary by practicing new words
+                    every day, reading books and articles to learn words in context, and reviewing them regularly. Try
+                    to use new words in writing and speaking so they become part of your active vocabulary. Quizzes and
+                    practice exercises on the website can also help you improve.</div>
+            </div>
+            <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-semibold">Do you offer certificates for completed courses?</div>
+                <div class="collapse-content text-sm">At the moment, we do not provide certificates. However, we may
+                    introduce certificates in future updates.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+
+    <footer
+        class="footer bg-[#edf6ff] text-black p-8 sm:p-10 flex flex-col md:flex-row justify-between items-center gap-6">
+
+        <!-- Logo + Text -->
+        <aside class="text-center md:text-left">
+            <div>
+                <a class="flex justify-center md:justify-start items-center gap-1">
+                    <span class="text-xl font-semibold">English</span>
+                    <img src="./assets/logo.png" alt="logo" class="w-8 h-8">
+                    <span class="font-bangla text-xl">জানালা</span>
+                </a>
+            </div>
+            <p class="font-bangla text-[#546a7f]">ইংরেজি শিখুন সহজে</p>
+            <p class="text-[#546a7f]">Providing ED-Tech Applications since 2025</p>
+        </aside>
+
+        <!-- Social Links -->
+        <nav class="text-center md:text-right">
+            <h6 class="footer-title mb-3">Follow us</h6>
+            <div class="flex justify-center md:justify-end items-center gap-4">
+                <a href=""><img src="./assets/fb-thumb.png" alt="Facebook"
+                        class="w-6 h-6 hover:scale-110 transition"></a>
+                <a href=""><img src="./assets/youtube-thumb.png" alt="YouTube"
+                        class="w-6 h-6 hover:scale-110 transition"></a>
+                <a href=""><img src="./assets/instagram-thumb.png" alt="Instagram"
+                        class="w-6 h-6 hover:scale-110 transition"></a>
+                <a href=""><img src="./assets/github-thumb.png" alt="GitHub"
+                        class="w-6 h-6 hover:scale-110 transition"></a>
+            </div>
+        </nav>
+    </footer>
+
+
+
 
     <!-- * JavaScript Link -->
-    <script src="script/english.js"></script>
+    <script src="script/english.js" defer></script>
 </body>
 
 </html>
